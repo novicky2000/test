@@ -1,0 +1,153 @@
+body {
+	background-image: url(../img/bg/bg.jpg);
+	background-repeat: no-repeat;
+	-moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+	font-family: arial;
+}
+
+.color {
+		background-color: #ffffff;
+		opacity: .7;
+}
+/*----------------
+-----header-------
+----------------*/
+header {
+	text-align: center;
+	
+}
+.header__logo {
+
+}
+.header__title {
+	font-size: 26;
+	font-weight: bold;
+	color: #ffffff;
+	padding-bottom: 50px;
+}
+.header__social {
+	padding-left: 25px;
+	padding-bottom: 60px;
+}
+.header__social-link {
+	padding-right: 15px;
+}
+.header__nav {
+	text-decoration: none;
+	padding-left: 155px;
+	padding-bottom: 60px;
+}
+.header__nav-link {
+	text-decoration: none;
+	font-size: 24px;
+	color: #ffffff;
+	letter-spacing: 2.4px;
+	padding-right: 100px;
+	transition: all 0.2s ease-in;
+}
+
+.header__nav-link:hover {
+	text-decoration: none;
+	color: #8694f9;
+}
+/*----------------
+-----main-------
+----------------*/
+.main__blog {
+	width: 980px;
+	margin: 0 auto;
+	text-align: left;
+	padding-top: 100px;
+	display: block;
+	justify-content: center;
+	
+}
+.blog__title {
+
+	color: #000;
+	font-size: 21px;
+	letter-spacing: 1.05px;
+	text-align: left;
+	padding-bottom: 23px;
+	
+
+}
+.blog__subtitle {
+
+	color: #000;
+	font-size: 21px;
+	letter-spacing: 1.05px;
+	padding-bottom: 47px;
+}
+.lowmain {
+	background-color: #ffffff;
+	opacity: .7;
+	display: block;
+	text-align: center;
+	padding-bottom: 25px;
+}
+.lowmain__star {
+	display: inline-block;
+}
+.stick {
+	padding-bottom: 25px;
+}
+.circle {
+	padding-bottom: 10px;
+}
+
+.star__blog {
+	vertical-align: bottom;
+	width: 315px;
+	display: inline-block;
+	text-align: center;
+	padding-top: 26px;
+	padding-right: 100px;
+	height: 350px;
+	
+	
+	
+
+}
+.star__blog-title {
+	text-align:left; 
+	padding-bottom: 35px;
+	color: #000;
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 0.9px;
+
+}
+.star__blog-subtitle {
+	text-align:left;
+	color: #000;
+	font-size: 16px;
+	letter-spacing: 1.6px;
+
+}
+
+
+
+/*----------------
+-----footer-------
+----------------*/
+footer {
+	height: 110px;
+	text-align: center;
+}
+.footer__copyright {
+	padding-top: 54px;
+	
+}
+.footer__copyright a {
+	color: white;
+	font-size: 14px;
+	text-decoration: none;
+	transition: all 0.2s ease-in;
+}
+.footer__copyright a:hover {
+	color: #8694f9;
+}
